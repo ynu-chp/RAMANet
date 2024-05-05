@@ -27,12 +27,7 @@ def opt_utility(bids,values):
 
 
     solution = model.solve()
-    # payment = 0
-    # for i in range(bidder):
-    #     payment += solution[allocation[i]] * bid[i]
-    # print("payment",payment)
 
-    # print(solution)
     if (solution):
         return solution.objective_value
     else:

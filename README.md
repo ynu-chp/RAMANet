@@ -19,7 +19,7 @@ This is the Pytorch implementation of our paper:`An Optimal Reverse Affine Maxim
 
 ```bash
 python generate_data.py
-#You can set the number of users
+#You can set the number of users or pois
 ```
 
 ### Train RAMANet
@@ -43,6 +43,27 @@ python 10x5.py
 
 # user=12
 python 12x5.py
+```
+
+```bash
+#user=5
+# poi=2
+python 5x2.py
+
+# poi=4
+python 5x4.py
+
+# poi=6
+python 5x6.py
+
+# poi=8
+python 5x8.py
+
+# poi=10
+python 5x10.py
+
+# poi=12
+python 5x12.py
 ```
 
 ## Acknowledgement
